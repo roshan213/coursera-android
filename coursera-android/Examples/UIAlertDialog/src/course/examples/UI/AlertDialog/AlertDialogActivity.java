@@ -18,6 +18,7 @@ public class AlertDialogActivity extends Activity {
 	private Button mShutdownButton = null;
 	private DialogFragment mDialog;
 	int cd;
+	int ef;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
