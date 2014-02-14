@@ -17,7 +17,7 @@ public class AlertDialogActivity extends Activity {
 	protected static final String TAG = "AlertDialogActivity";
 	private Button mShutdownButton = null;
 	private DialogFragment mDialog;
-
+	int cd;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
